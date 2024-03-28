@@ -1,0 +1,76 @@
+body {
+    background-color: #FFFFFF;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+h2 {
+    color: #000066;
+    clear: both;
+    line-height: 125%;
+}
+header {
+    background-image: url(images/header.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 250px;
+    width: 100%;
+    position: relative;
+}
+h1 {
+    color: #FFFFFF;
+    position: absolute;
+    font-size: 300%;
+    z-index: 10;
+    top: 30px;
+    left:50px;
+    text-shadow: 2px 2px #000000;
+
+}
+#center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.rightImage {
+    float: right;
+}
+.leftImage {
+    float: left;
+    padding-right: 10px;
+}
+footer {
+    clear: right;
+    font-size: .9em;
+    font-style: italic;
+}
+a {
+    font-size: 1.25em;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+nav {
+    background-color: #000066;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+a:link {
+    color: #FFFFFF;
+}
+a:visited {
+    color: #99ccff;
+}
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
